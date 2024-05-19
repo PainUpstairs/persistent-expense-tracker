@@ -1,4 +1,4 @@
-import 'package:expense_tracker_frontend/Screens/Calendar.dart';
+import 'package:expense_tracker_frontend/Screens/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,20 +31,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
-  Widget CustomeText(String text) {
-    return Text(
-      text,
-      style: Theme.of(context).textTheme.bodyLarge,
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -53,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         body: const Center(
-          child: Calendar(),
+          child: Home(),
         ));
   }
 
