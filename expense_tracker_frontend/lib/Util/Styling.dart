@@ -10,6 +10,6 @@ class Styling {
       //       primary: Colors.teal,
       //     ),
       // ),
-      scaffoldBackgroundColor: Colors.grey[200],
+      // scaffoldBackgroundColor: Colors.grey[200],
       textTheme: const TextTheme(bodyLarge: TextStyle(color: Colors.white)));
 }
